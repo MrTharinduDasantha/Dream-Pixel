@@ -73,18 +73,21 @@ Clone the repository and navigate to the project folder to install dependencies.
 ```
 
 **1. Install Dependencies**
+
 Install all required packages for the application:
 ```bash
 npm install
 ```
 
 **2. Database Setup (Neon & Drizzle)**
+
 Sync your Drizzle schema with your Neon PostgreSQL database:
 ```bash
 npm run db:push
 ```
 
 **3. Environment Variables**
+
 Create a .env file in the root directory and configure the necessary environment variables. You will need to obtain API keys from Neon, ImageKit, Sentry, Clerk, and OpenAI.
 ```bash
 # PostgreSQL database configuration (Neon)
